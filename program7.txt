@@ -1,0 +1,30 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,nccmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+
+\title{Mathematical Equations in LaTeX}
+\author{Adithya\\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+\fancyfoot[C]{\thepage}
+\maketitle
+\section{Insertion of Mathematics Equation}
+
+\subsection{Display math mode}
+The mass-energy equivalence is described by the famous equation
+
+\[E=mc^2\]
+
+\section{Insertion of Equation}
+\subsection{Equation 1}
+\begin{fleqn}
+\[x = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}\]
+\[= \frac{-2 \pm \sqrt{2^{2}-4*(1)*(-8)}}{2*1}\]
+\[= \frac{-2 \pm \sqrt{4+32}}{2}\]
+\end{fleqn}
+
+
+\end{document}

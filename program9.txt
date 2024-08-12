@@ -1,0 +1,27 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+
+
+\begin{document}
+\title{\textbf{Numbered theorems, definitions, corollaries and lemmas}}
+\author{\textbf{Adithya} \\ Student\\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+
+\maketitle
+
+\section{Introduction to Theorems}
+Mathematical documents include elements that require special formatting and numbering such as theorems, definitions, propositions, remarks, corollaries, lemmas and so on. This article explains how to define these environments in LaTeX.
+
+\begin{theorem}[Pythagorean theorem]
+Let \(f\) be a function whose derivative exists in every point, then \(f\) is 
+a continuous function.
+\label{pythagorean}
+This is a theorem about right triangles and can be summarised in the next 
+equation 
+\[ x^2 + y^2 = z^2 \]
+\end{theorem}
+\end{document}
